@@ -11,7 +11,7 @@
 
 /* header style */
 header {
-  background-color: black;
+  background-color: #212121;
   color: white;
 }
 .navbar {
@@ -49,6 +49,10 @@ header {
   background-color: #e6533c;
   padding: 10px 20px;
   border-radius: 40px;
+}
+
+.navbar_icon{
+  display: none;
 }
 
 /* banner style */
@@ -141,4 +145,60 @@ header {
 .video_tutorial {
   font-size: 16px;
   font-weight: 200;
+}
+main{
+  background-color: black;
+}
+
+/* change_habits style start */
+
+.change_habits{
+  max-width: 1044px;
+  margin: 0 auto;
+  padding-top: 120px;
+  background-color: black;
+  color: #fff;
+}
+
+.change_habits_info{
+  text-align: center;
+
+}
+
+.change_habits_title{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.change_habits_description{
+  font-size: 14px;
+  font-weight: 300;
+  color: #828282;
+  margin-top: 15px;
+}
+.change_habits_curd_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.change_habits_curd{
+  width: 230px;
+  height: 275px;
+  text-align: center;
+  margin-top: 50px;
+}
+.change_habits_curd_img{
+  border: 6px solid #191919;
+  border-radius: 50%;
+}
+.change_habits_curd_title{
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.change_habits_curd_description{
+  font-size: 14px;
+  font-weight: 300;
+  color: #828282;
 }
