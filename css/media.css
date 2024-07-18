@@ -26,15 +26,19 @@
         gap: 50px;
     }
     .btn_video{
-        margin-left: -25px;
+        margin-left: -10px;
         margin-top: -170px;
     }
     .video_free{
-        margin-left: 11.8rem;
-        margin-top: -28rem;
+        margin-left: 10rem;
+        margin-top: -25rem;
     }
     .banner_btnn{
         display: flex;
+    }
+    .btn_primary, .btn_secondary {
+        width: 170px;
+        margin-left: 10px;
     }
     .change_habits_curd_container{
         flex-direction: column;

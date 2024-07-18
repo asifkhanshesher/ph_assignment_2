@@ -93,6 +93,7 @@ header {
   border-radius: 40px;
   font-size: 18px;
   margin-top: 40px;
+  border: transparent;
 }
 
 .btn_secondary {
