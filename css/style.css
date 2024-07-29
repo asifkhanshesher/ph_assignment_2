@@ -9,6 +9,15 @@
   font-weight: 300;
 }
 
+/* shared style */
+.btn:hover{
+  background-color: transparent;
+  border: 1px solid #e6533c;
+  color: #e6533c;
+  transition: .5s all ease-in-out;
+}
+
+
 /* header style */
 header {
   background-color: #212121;
@@ -51,7 +60,7 @@ header {
   border-radius: 40px;
 }
 
-.navbar_icon{
+.navbar_icon {
   display: none;
 }
 
@@ -138,8 +147,8 @@ header {
   font-size: 24px;
   font-weight: 800;
 }
-.video_numm{
-    font-size: 40px;
+.video_numm {
+  font-size: 40px;
   font-weight: 800;
 }
 
@@ -147,13 +156,13 @@ header {
   font-size: 16px;
   font-weight: 200;
 }
-main{
+main {
   background-color: black;
 }
 
 /* change_habits style start */
 
-.change_habits{
+.change_habits {
   max-width: 1044px;
   margin: 0 auto;
   padding-top: 120px;
@@ -161,45 +170,325 @@ main{
   color: #fff;
 }
 
-.change_habits_info{
+.change_habits_info {
   text-align: center;
-
 }
 
-.change_habits_title{
+.change_habits_title {
   font-size: 48px;
   font-weight: 900;
 }
 
-.change_habits_description{
+.change_habits_description {
   font-size: 14px;
   font-weight: 300;
   color: #828282;
   margin-top: 15px;
 }
-.change_habits_curd_container{
+.change_habits_curd_container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
-.change_habits_curd{
+.change_habits_curd {
   width: 230px;
   height: 275px;
   text-align: center;
   margin-top: 50px;
 }
-.change_habits_curd_img{
+.change_habits_curd_img {
   border: 6px solid #191919;
   border-radius: 50%;
 }
-.change_habits_curd_title{
+.change_habits_curd_title {
   font-weight: 700;
   font-size: 18px;
   margin: 10px 0px;
 }
-.change_habits_curd_description{
+.change_habits_curd_description {
   font-size: 14px;
   font-weight: 300;
   color: #828282;
+}
+
+/* run_extra style start */
+.run_extra {
+  color: #fff;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.run_extra_info,
+.run_extra_img {
+  width: 50%;
+}
+
+.run_extra_img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.run_extra_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.run_extra_title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.run_extra_description {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 443px;
+  color: #828282;
+  margin-top: 15px;
+}
+
+.run_extra_btn {
+  color: white;
+  background-color: #e6533c;
+  height: 54px;
+  width: 200px;
+  border-radius: 40px;
+  font-size: 18px;
+  margin-top: 40px;
+  border: transparent;
+}
+
+/* BMI Calculator section */
+.bmi_calculator {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+.bmi_calculator_title {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+
+.bmi_calculator_description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #828282;
+  margin: 20px 0px 100px 0px;
+}
+
+.box_container {
+  background-color: #222222;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  border: 1px solid #373737;
+  padding: 15px;
+}
+
+#box_1 {
+  font-weight: 800;
+}
+
+.box_header_title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: start;
+  margin-bottom: 70px;
+}
+.form_header_title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: start;
+  margin-bottom: 20px;
+}
+.form_header_descrip {
+  margin-bottom: 50px;
+  color: #726e6e;
+}
+
+.bmi_calculator_container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #222222;
+  padding: 80px 100px;
+}
+
+.bmi_calculator_form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#input_inner {
+  background: #373737;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  color: #afafaf;
+  margin-bottom: 12px;
+  width: 85%;
+}
+
+#select_inner {
+  background: #373737;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  color: #afafaf;
+  margin-bottom: 12px;
+  width: 96%;
+}
+
+.from_btn {
+  color: white;
+  background-color: #e6533c;
+  height: 54px;
+  width: 200px;
+  border-radius: 40px;
+  font-size: 18px;
+  margin-top: 35px;
+  border: transparent;
+}
+
+
+.input_50 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+#activity {
+  margin-top: 10px;
+  background: #373737;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  color: #afafaf;
+  width: 98%;
+}
+
+/* our_team style  */
+
+.our_team {
+  background-color: black;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.our_team_info {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+
+.our_team_title {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.our_team_description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #828282;
+  margin: 20px 0px;
+}
+
+.our_team_container {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #191919;
+  padding: 30px;
+  border-radius: 12px;
+}
+.our_team_member img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.our_team_member_name {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 15px;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+.our_team_member_role {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 15px;
+  z-index: 1;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* footer style */
+footer {
+  background-color: #191919;
+  color: #fff;
+  padding: 80px 50px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer_box {
+}
+.footer_box ul {
+}
+
+.footer_box ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.footer_box ul li a{
+  text-decoration: none;
+  color: #737373;
+}
+.footer_title {
+  font-size: 70px;
+  font-weight: 800;
+  color: #e6533c;
+}
+.footer_descrip {
+  font-size: 14px;
+  line-height: 25px;
+  color: #737373;
+}
+.footer_sub_title {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.copyright {
+  text-align: center;
+  border-top: 1px solid #737373;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 7rem;
+  color: #737373;
+}
+.copyright h1 {
+  margin-top: 25px;
+  font-weight: 600;
 }

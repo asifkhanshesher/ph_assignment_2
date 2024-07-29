@@ -1,55 +1,162 @@
 /* mobile device 576px*/
-@media screen and (max-width:576px) {
-    .nav_items{
-        display: none;
-    }
-    .navbar_icon{
-        display: block;
-        font-size: 25px;
-    }
-    .navbar{
-        padding: 30px;
-    }
-    .banner_title{
-        font-size: 56px;
-        margin-left: 25px;
-        margin-top: 30px;
-    }
-    .banner_title span{
-        font-size: 50px;
-    }
-    .banner_description{
-        margin-left: 25px;
-    }
-    .banner{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .btn_video{
-        margin-left: -10px;
-        margin-top: -170px;
-    }
-    .video_free{
-        margin-left: 10rem;
-        margin-top: -25rem;
-    }
-    .banner_btnn{
-        display: flex;
-    }
-    .btn_primary, .btn_secondary {
-        width: 170px;
-        margin-left: 10px;
-    }
-    .change_habits_curd_container{
-        flex-direction: column;
-    }
-    .change_habits_title {
-        font-size: 30px;
-    }
-    .change_habits{
-        padding-top: 70px;
-    }
-    .change_habits_curd_container{
-        gap: 0px;
-    }
+@media screen and (max-width: 576px) {
+  .nav_items {
+    display: none;
+  }
+  .navbar_icon {
+    display: block;
+    font-size: 25px;
+  }
+  .navbar {
+    padding: 30px;
+  }
+
+  /* banner section */
+  .banner_title {
+    font-size: 56px;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+  .banner_title span {
+    font-size: 50px;
+  }
+  .banner_description {
+    margin-left: 25px;
+  }
+  .banner {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .btn_video {
+    margin-left: -10px;
+    margin-top: -170px;
+  }
+  .video_free {
+    margin-left: 10rem;
+    margin-top: -25rem;
+  }
+  .banner_btnn {
+    display: flex;
+    margin: 0px 20px;
+  }
+  .btn_primary,
+  .btn_secondary {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .change_habits_curd_container {
+    flex-direction: column;
+  }
+  .change_habits_title {
+    font-size: 30px;
+  }
+  .change_habits {
+    padding-top: 70px;
+  }
+  .change_habits_curd_container {
+    gap: 0px;
+  }
+
+  /* run_extra SECTION */
+  .run_extra_container {
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .run_extra_info,
+  .run_extra_img {
+    width: 100%;
+  }
+  .run_extra_title {
+    font-size: 32px;
+  }
+
+  .run_extra_btn {
+    margin: 40px auto;
+    width: 100%;
+  }
+
+  /* bmi_calculator */
+  .bmi_calculator_container {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+
+  .bmi_calculator_title {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 100px 0px 0px 20px;
+    text-align: start;
+  }
+  .bmi_calculator_description {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 20px 0px 100px 20px;
+    text-align: start;
+  }
+
+  .box_header_title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 25px;
+  }
+
+  .form_header_title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: start;
+    margin: 30px 0px;
+  }
+
+  .form_header_descrip {
+    margin: 0px 0px 30px 0px;
+    color: #726e6e;
+    text-align: start;
+    font-size: 15px;
+  }
+
+  #input_inner {
+    width: 75%;
+  }
+  #select_inner {
+    width: 100%;
+  }
+  #activity {
+    width: 100%;
+  }
+
+  /*  our_team */
+
+  .our_team {
+    padding: 30px;
+    margin-top: 40px;
+  }
+  .our_team_container {
+    width: 100;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .our_team_member_name {
+    margin-top: -55px;
+    font-size: 18px;
+  }
+
+  .our_team_title {
+    font-size: 40px;
+  }
+
+  /* footer section */
+
+  .footer_container {
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+  }
+  .footer_descrip {
+    font-size: 12px;
+  }
+  .copyright h1 {
+    font-size: 18px;
+  }
 }
