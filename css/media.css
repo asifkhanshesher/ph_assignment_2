@@ -146,6 +146,21 @@
     font-size: 40px;
   }
 
+  /* our_plan */
+  .our_plan_title {
+    font-size: 22px;
+  }
+  .our_plan_info {
+    margin: 0px 25px 50px 25px;
+}
+  .all_packages {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .our_plan_package {
+    margin: 0 auto;
+    width: 50%;
+  }
   /* footer section */
 
   .footer_container {

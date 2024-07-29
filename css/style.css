@@ -10,13 +10,12 @@
 }
 
 /* shared style */
-.btn:hover{
+.btn:hover {
   background-color: transparent;
   border: 1px solid #e6533c;
   color: #e6533c;
-  transition: .5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
-
 
 /* header style */
 header {
@@ -360,7 +359,6 @@ main {
   border: transparent;
 }
 
-
 .input_50 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -384,6 +382,7 @@ main {
   background-color: black;
   color: #fff;
   margin-top: 100px;
+  padding-bottom: 75px;
 }
 
 .our_team_info {
@@ -438,6 +437,92 @@ main {
   font-weight: 200;
 }
 
+/* our_plan */
+.our_plan_sec{
+  background-color: #2b2b2b;
+}
+.our_plan {
+  color: #fff;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0px;
+  border-top: 1px solid #383838;
+}
+.our_plan_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.our_plan_title {
+  font-weight: 900;
+  font-size: 30px;
+}
+.plan_btn {
+  color: white;
+  background-color: #e6533c;
+  height: 35px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 700;
+  border: transparent;
+}
+
+.all_packages{
+  
+display: flex;
+  
+justify-content: space-between;
+  
+text-align: center;
+}
+.our_plan_package{
+
+background: #212121;
+
+padding: 60px;
+}
+
+.package_title{
+
+font-weight: 800;
+
+font-size: 40px;
+}
+.package_description{
+
+font-size: 14px;
+
+font-weight: 500;
+
+color: #e6533c;
+
+margin-top: 15px;
+}
+.package_sub_title{font-size: 16px;font-weight: 800;margin: 30px 0px 20px 0px;}
+
+.our_plan_package ul{
+
+list-style: none;
+}
+
+.our_plan_package ul li{
+  
+margin-bottom: 25px;
+  
+font-size: 14px;
+  
+font-weight: 200;
+  
+color: #858585;
+}
+sup{
+  
+font-size: 20px;
+  
+font-weight: 800;
+}
+
 /* footer style */
 footer {
   background-color: #191919;
@@ -447,12 +532,10 @@ footer {
 
 .footer_container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-}
-.footer_box {
-}
-.footer_box ul {
+  max-width: 1060px;
+  margin: 0 auto;
 }
 
 .footer_box ul li {
@@ -460,7 +543,7 @@ footer {
   margin-top: 15px;
 }
 
-.footer_box ul li a{
+.footer_box ul li a {
   text-decoration: none;
   color: #737373;
 }
@@ -483,12 +566,13 @@ footer {
 .copyright {
   text-align: center;
   border-top: 1px solid #737373;
-  max-width: 1440px;
+  max-width: 1100px;
   margin: 0 auto;
   margin-top: 7rem;
   color: #737373;
 }
 .copyright h1 {
   margin-top: 25px;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 20px;
 }
